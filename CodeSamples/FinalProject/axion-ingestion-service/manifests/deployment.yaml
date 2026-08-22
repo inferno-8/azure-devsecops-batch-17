@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: axion-ingestion-service
-        image: acrmicrodev567.azurecr.io/axion-ingestion-service:v1
+        image: acrmicrodev567.azurecr.io/ingestion:v1
         ports:
         - containerPort: 8000
